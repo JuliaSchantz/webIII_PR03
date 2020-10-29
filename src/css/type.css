@@ -1,3 +1,21 @@
+a {
+  text-decoration: none;
+  outline: none;
+}
+
 html {
   font-size: 10px;
+}
+
+h2 {
+  color: white;
+  font-weight: var(--weight-bold);
+  font-size: var(--size-h2);
+  font-family: var(--font-head);
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: var(--font-body);
 }

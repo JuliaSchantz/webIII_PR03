@@ -1,0 +1,24 @@
+.bbb-logo {
+  width: 56px;
+}
+
+.eclipse-logo {
+  width: 147px;
+}
+
+.footer-contact {
+  width: 150px;
+}
+
+.footer-contact__info {
+  color: white;
+}
+
+.footer-hours__info {
+  color: white;
+}
+
+.main-footer__text {
+  display: flex;
+  flex-flow: row wrap;
+}

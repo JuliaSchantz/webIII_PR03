@@ -8,6 +8,7 @@
 /* Generic block styles */
 @import url("css/brand.css");
 @import url("css/nav.css");
+@import url("css/footer.css");
 
 /* Page-specific styles */
 @import url("css/home.css");

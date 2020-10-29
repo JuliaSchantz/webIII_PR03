@@ -9,6 +9,21 @@ body {
     width: 318px;
 }
 
+footer {
+  background-color: black;
+}
+
 header {
     background-color: #1D0F00;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
 }
