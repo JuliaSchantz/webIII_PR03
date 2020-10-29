@@ -1,0 +1,8 @@
+.main-image {
+  background-image: url(/images/home-header2.png);
+}
+
+.main-image__header {
+  margin: 0;
+  height: 200px;
+}

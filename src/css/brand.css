@@ -1,0 +1,10 @@
+.brand {
+  margin: auto;
+}
+
+.brand-image {
+  display: block;
+  margin-left: 6px;
+  margin-top: -53px;
+  width: 130px
+}

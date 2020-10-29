@@ -1,0 +1,24 @@
+:root {
+  --color-rust: #8F4C01;
+  --color-rust-300: #562E01;
+  --color-rust-200: #391E00;
+  --color-denim: #365A77;
+  --color-navy: #0A1E2E;
+  --color-body: #63615D;
+  --color-body-300: #38352E;
+
+  --font-body: 'Source Sans Pro', sans-serif;
+  --font-head: 'Raleway', sans-serif;
+
+  --size-b1: 1.1rem;
+  --size-b2: 1.5rem;
+  --size-h2: 2.4rem;
+  --size-h3: 2.1rem;
+  --size-h4: 1.7rem;
+
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+}

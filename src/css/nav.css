@@ -1,0 +1,32 @@
+.nav-item__link {
+    color: white;
+    text-decoration: none
+}
+
+.nav-main__list {
+   list-style-type: none;
+   font-weight: var(--weight-light);
+   font-size: var(--size-b1);
+   font-family: var(--font-body);
+   display: flex;
+   flex-flow: row wrap;
+   padding: 0 0 20px 0;
+   margin: -30px 0 0 148px;
+}
+
+.nav-item {
+  margin: 0 4px 0 4px;
+}
+
+.nav-social {
+   list-style-type: none;
+   display: flex;
+   flex-flow: row wrap;
+   margin: 0 0 5px 198px;
+   padding: 37px 0 0 0;
+}
+
+.nav-social__item-image {
+  width: 20px;
+  margin: 0 3px 0 3px;
+}
