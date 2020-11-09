@@ -27,3 +27,17 @@ ul {
     margin: 0;
     list-style-type: none;
 }
+
+/* Responsive styles */
+
+@media (min-width: 768px) {
+  body {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1200px) {
+   body {
+    width: 1200px;
+  }
+}
