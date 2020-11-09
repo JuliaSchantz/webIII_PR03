@@ -1,23 +1,29 @@
-.brand {
-  margin: auto;
+#icon {
+  margin-top: 0px;
 }
 
-.brand-image {
+#layout {
   display: block;
-  margin-left: 6px;
-  margin-top: -53px;
-  width: 130px
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+#svg{
+  width:35%;
+  margin: -53px 0 0 18px;
+  height: auto;
 }
 
 /* Responsive styles */
 
 @media (min-width: 768px) {
-  .brand-image {
-    width: 270px;
-    margin: -110px 0 25px 10px;
+  #svg {
+    margin: -110px 0 25px 30px;
   }
 }
 
 @media (min-width: 1200px) {
-
+  #svg {
+    margin: -110px 0 25px 40px;
+  }
 }
