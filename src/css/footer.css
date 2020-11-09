@@ -32,3 +32,19 @@
   display: flex;
   flex-flow: row wrap;
 }
+
+/* Responsive styles */
+
+@media (min-width: 768px) {
+  .footer-contact {
+    width: 367px;
+  }
+
+  .footer-hours {
+    width: 213px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+}
