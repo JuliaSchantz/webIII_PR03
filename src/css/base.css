@@ -10,11 +10,12 @@ body {
 }
 
 footer {
-  background-color: black;
+  background-color: #1D0F00;
 }
 
 header {
-    background-color: black;
+    background-color: #1D0F00;
+    opacity: 100%;
 }
 
 img {

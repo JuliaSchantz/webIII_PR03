@@ -1,22 +1,17 @@
 <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340.3 248.44">
   <defs>
     <style>
-      @media (min-width: 318px) {
-        #tagline, #hauer {
+      @media (max-width: 768px) {
+      #tagline {
+          display: block;
+        }
+      }
+
+      @media (max-width: 318px) {
+       #tagline {
           display: none;
         }
       }
-
-      @media (min-width: 768px) {
-        #hauer, {
-          display: block;
-        }
-      }
-
-      @media (min-width: 1200px) {
-        #tagline {
-          display: block;
-        }
     </style>
   </defs>
   <g id="tagline">
