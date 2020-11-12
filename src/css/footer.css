@@ -37,7 +37,7 @@
 
 @media (min-width: 768px) {
   .footer-contact {
-    width: 367px;
+    width: 400px;
   }
 
   .footer-hours {
@@ -47,4 +47,23 @@
 
 @media (min-width: 1200px) {
 
+  .bbb-logo {
+    width: 148px;
+  }
+
+  .eclipse-logo {
+    width: 380px;
+  }
+
+  .footer-contact {
+    width: 650px;
+  }
+
+  .footer-hours {
+    width: 390px;
+  }
+
+  .main-footer {
+    padding: 60px 0;
+  }
 }

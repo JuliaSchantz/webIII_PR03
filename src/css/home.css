@@ -109,7 +109,7 @@
 }
 
 .main-image__header {
-  margin: 0 0 0 14px;
+  margin: 0 0 0 18px;
   padding: 25% 0;
   width: 70%;
 }
@@ -140,8 +140,8 @@
 .main-subscribe__name-input {
   margin: 0;
   padding: 7px 0 8px 4px;
-  width: 85px;
-  height: 15px;
+  width: 94px;
+  height: 18px;
   box-sizing: border-box;
   border: none;
   background-color: #C1C0BE;
@@ -151,7 +151,7 @@
   margin: 0 0 0 10px;
   padding: 7px 0 8px 4px;
   width: 105px;
-  height: 15px;
+  height: 18px;
   box-sizing: border-box;
   border: none;
   background-color: #C1C0BE;
@@ -288,13 +288,13 @@
   }
 
   .main-subscribe__name-input {
-    width: 190px;
+    width: 189px;
     height: 38px;
     margin-top: 10px;
   }
 
   .main-subscribe__email-input {
-    width: 190px;
+    width: 189px;
     height: 38px;
     margin-top: 10px;
   }
@@ -313,6 +313,10 @@
     padding-top: 172px;
   }
 
+  .about-location__text-subheader {
+    font-size: 2rem;
+  }
+
   .about-story {
     width: 590px;
     height: 428px;
@@ -323,11 +327,90 @@
     padding-top: 172px;
   }
 
+  .about-story__text-subheader {
+    font-size: 2rem;
+  }
+
   .brand-image {
     width: 310px;
   }
 
+  .main-events {
+    margin-top: 20px;
+    padding-bottom: 200px;
+  }
+
+  .main-events__text-header {
+    margin-left: 41px;
+    padding: 60px 20px 60px 0;
+  }
+
+  .main-events__text-subheader {
+    font-size: 2.2rem;
+    padding: 45px 0 0 40px;
+  }
+
+  .main-events__table {
+    width: 1140px;
+  }
+
+  .main-events__table-name {
+    font-size: 2rem;
+    padding: 14px 14px 14px 14px;
+  }
+
+  .main-events__table-date {
+    font-size: 2rem;
+  }
+
   .main-image {
     height: 700px;
+  }
+
+  .main-subscribe__button {
+    width: 180px;
+    height: 40px;
+    padding: 0;
+    margin: 20px 0 0 10px;
+    font-size: 2rem;
+  }
+
+  .main-subscribe__data {
+    margin-bottom: 10px;
+  }
+
+  .main-subscribe__section {
+    padding: 60px 0;
+  }
+
+  .main-subscribe__header {
+    margin-top: 0;
+  }
+
+  .main-subscribe__image {
+    margin: -120px 40px -55px 14px;
+  }
+
+  .main-subscribe__email-input {
+    width: 189px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 12px 0 8px 12px;
+  }
+
+  .main-subscribe__name-input {
+    width: 189px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 12px 0 8px 12px;
+  }
+
+  ::placeholder {
+    font-size: 2rem;
+  }
+
+  .subscribe-image {
+    height: 400px;
+    margin-right:
   }
 }
