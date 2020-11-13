@@ -9,28 +9,28 @@
 .footer-contact {
   width: 140px;
   margin: auto;
-}
 
-.footer-contact__info {
+  &__info {
   color: white;
+  }
 }
 
 .footer-hours {
   width: 88px;
   margin: 0 auto;
-}
 
-.footer-hours__info {
+  &__info {
   color: white;
+  }
 }
 
 .main-footer {
   padding: 30px 0;
-}
 
-.main-footer__text {
+  &__text {
   display: flex;
   flex-flow: row wrap;
+  }
 }
 
 /* Responsive styles */
@@ -57,19 +57,19 @@
 
   .footer-contact {
     width: 650px;
-  }
 
-  .footer-contact__info {
+  &__info {
     margin-bottom: 40px;
   }
+}
 
   .footer-hours {
     width: 390px;
-  }
 
-  .footer-hours__info {
+  &__info {
     margin-bottom: 40px;
   }
+}
 
   .main-footer {
     padding: 60px 0;
