@@ -1,5 +1,9 @@
-.nav-item__link {
-    color: white;
+.nav-item {
+  margin: 0 4px 0 4px;
+
+  &__link {
+      color: white;
+  }
 }
 
 .nav-main__list {
@@ -11,10 +15,6 @@
    flex-flow: row wrap;
    padding: 0 0 25px 0;
    margin: -45px 0 0 148px;
-}
-
-.nav-item {
-  margin: 0 4px 0 4px;
 }
 
 .nav-social {
