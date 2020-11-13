@@ -16,8 +16,8 @@
   color: white;
   margin: auto;
   text-align: center;
-  font-weight: var(--weight-light);
-  font-size: var(--size-b1);
+  font-weight: $weight-light;
+  font-size: $size-b1;
 }
 
 .about-story {
@@ -38,8 +38,8 @@
   color: white;
   margin: 0 auto;
   text-align: center;
-  font-weight: var(--weight-light);
-  font-size: var(--size-b1);
+  font-weight: $weight-light;
+  font-size: $size-b1;
 }
 
 .main-about {
@@ -69,7 +69,7 @@
 }
 
 .main-events__table-name {
-  font-weight: var(--weight-medium);
+  font-weight: $weight-medium;
   color: white;
   padding: 5px 8px 5px 8px;
 }
@@ -80,13 +80,13 @@
 }
 
 .main-events__table-row {
-  font-weight: var(--weight-light);
-  font-size: var(--size-b1);
-  font-family: var(--font-body);
+  font-weight: $weight-light;
+  font-size: $size-b1;
+  font-family: $font-body;
 }
 
 .main-events__text {
-  background-color: var(--color-rust-300);
+  background-color: $color-rust-300;
   display: flex;
   flex-flow: row wrap;
 }
@@ -122,7 +122,7 @@
 }
 
 .main-subscribe {
-  background-color: var(--color-navy);
+  background-color: $color-navy;
   display: flex;
   flex-flow: row wrap;
   margin-bottom: 8px;
@@ -132,10 +132,10 @@
   margin-top: 14px;
   box-sizing: border-box;
   border: none;
-  background-color: var(--color-rust-300);
+  background-color: $color-rust-300;
   color: #C1C0BE;
-  font-weight: var(--weight-light);
-  font-size: var(--size-b1);
+  font-weight: $weight-light;
+  font-size: $size-b1;
   padding: 4px;
 }
 
@@ -165,9 +165,9 @@
 }
 
 ::placeholder {
-  color: var(--color-body-300);
-  font-weight: var(--weight-light);
-  font-size: var(--size-b1);
+  color: $color-body-300;
+  font-weight: $weight-light;
+  font-size: $size-b1;
 }
 
 .main-subscribe__image {
@@ -187,7 +187,7 @@
 }
 
 .table-dark {
-  background-color: var(--color-body);
+  background-color: $color-body;
 }
 
 /* Responsive styles */

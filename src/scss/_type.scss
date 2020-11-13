@@ -9,15 +9,15 @@ html {
 
 h2 {
   color: white;
-  font-weight: var(--weight-bold);
-  font-size: var(--size-h2);
-  font-family: var(--font-head);
+  font-weight: $weight-bold;
+  font-size: $size-h2;
+  font-family: $font-head;
   margin: 0;
   padding: 0;
 }
 
 p {
-  font-family: var(--font-body);
+  font-family: $font-body;
 }
 
 /* Responsive styles */
@@ -40,5 +40,4 @@ p {
   p {
     font-size: 2rem;
   }
-}
 }
