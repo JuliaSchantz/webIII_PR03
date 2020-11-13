@@ -3,21 +3,21 @@
   background-position: center;
   background-size: cover;
   height: 250px;
-}
 
-.about-location__text-header {
+&__text-header {
   margin: auto;
   padding: 96px 0 5px 0;
   width: 35%;
 }
 
-.about-location__text-subheader {
+&__text-subheader {
   width: 135px;
   color: white;
   margin: auto;
   text-align: center;
-  font-weight: var(--weight-light);
-  font-size: var(--size-b1);
+  font-weight: $weight-light;
+  font-size: $size-b1;
+}
 }
 
 .about-story {
@@ -25,29 +25,29 @@
   background-position: 50% 50%;
   background-size: cover;
   height: 250px;
-}
 
-.about-story__text-header {
+&__text-header {
   margin: auto;
   padding: 96px 0 5px 0;
   width: 26%;
 }
 
-.about-story__text-subheader {
+&__text-subheader {
   width: 135px;
   color: white;
   margin: 0 auto;
   text-align: center;
-  font-weight: var(--weight-light);
-  font-size: var(--size-b1);
+  font-weight: $weight-light;
+  font-size: $size-b1;
+}
 }
 
 .main-about {
   margin: 8px auto 0 auto;
-}
 
-.main-about__section {
+&__section {
   margin: 0px;
+}
 }
 
 .main-events {
@@ -55,49 +55,50 @@
   height: 200px;
   background-size: cover;
   margin-top: 8px;
-}
 
-.main-events__info {
+&__info {
   padding-top: 20px;
 }
 
-.main-events__table {
+&__table {
   border-spacing: 10px;
   text-align: left;
   margin: 10px auto 10px auto;
   width: 298px;
 }
 
-.main-events__table-name {
-  font-weight: var(--weight-medium);
+&__table-name {
+  font-weight: $weight-medium;
   color: white;
   padding: 5px 8px 5px 8px;
 }
 
-.main-events__table-date {
+&__table-date {
   padding: 5px 8px 5px 8px;
+  color: white;
 }
 
-.main-events__table-row {
-  font-weight: var(--weight-light);
-  font-size: var(--size-b1);
-  font-family: var(--font-body);
+&__table-row {
+  font-weight: $weight-light;
+  font-size: $size-b1;
+  font-family: $font-body;
 }
 
-.main-events__text {
-  background-color: var(--color-rust-300);
+&__text {
+  background-color: $color-rust-300;
   display: flex;
   flex-flow: row wrap;
 }
 
-.main-events__text-header {
+&__text-header {
   padding: 20px;
   margin-left: 20px;
 }
 
-.main-events__text-subheader {
+&__text-subheader {
   color: white;
   padding: 17px 0 0 15px;
+}
 }
 
 .main-image {
@@ -106,69 +107,75 @@
   margin: auto;
   height: 200px;
   width: 100%;
+
+&__info {
+  margin: 0 0 0 18px;
+  padding: 20% 0;
+  width: 70%;
+  color: white;
 }
 
-.main-image__header {
-  margin: 0 0 0 14px;
-  padding: 25% 0;
-  width: 70%;
+&__text {
+  padding: 5px 0 0 0;
+  margin: 0;
+}
 }
 
 .main-subscribe {
-  background-color: var(--color-navy);
+  background-color: $color-navy;
   display: flex;
   flex-flow: row wrap;
   margin-bottom: 8px;
-}
 
-.main-subscribe__button {
+&__button {
   margin-top: 14px;
   box-sizing: border-box;
   border: none;
-  background-color: var(--color-rust-300);
+  background-color: $color-rust-300;
   color: #C1C0BE;
-  font-weight: var(--weight-light);
-  font-size: var(--size-b1);
+  font-weight: $weight-light;
+  font-size: $size-b1;
   padding: 4px;
 }
 
-.main-subscribe__form {
+&__form {
   display: flex;
   margin-top: 10px;
 }
 
-.main-subscribe__name-input {
+&__name-input {
   margin: 0;
   padding: 7px 0 8px 4px;
-  width: 85px;
-  height: 15px;
+  width: 94px;
+  height: 18px;
   box-sizing: border-box;
   border: none;
   background-color: #C1C0BE;
 }
 
-.main-subscribe__email-input {
+&__email-input {
   margin: 0 0 0 10px;
   padding: 7px 0 8px 4px;
   width: 105px;
-  height: 15px;
+  height: 18px;
   box-sizing: border-box;
   border: none;
   background-color: #C1C0BE;
 }
 
-::placeholder {
-  color: white;
-  font-weight: var(--weight-light);
-  font-size: var(--size-b1);
-}
-
-.main-subscribe__image {
+&__image {
   margin: -10px 15px 0 14px;
 }
 
-.main-subscribe__section {
+&__section {
   padding: 17px 0;
+}
+}
+
+::placeholder {
+  color: $color-body-300;
+  font-weight: $weight-light;
+  font-size: $size-b1;
 }
 
 .subscribe-image {
@@ -180,7 +187,7 @@
 }
 
 .table-dark {
-  background-color: var(--color-body);
+  background-color: $color-body;
 }
 
 /* Responsive styles */
@@ -189,40 +196,45 @@
   .about-location {
     height: 300px;
     width: 384px;
-  }
 
-  .about-location__text-header {
+  &__text-header {
     padding: 117px 0 5px 0;
     font-size: 3rem;
     width: 49%;
   }
 
-  .about-location__text-subheader {
+  &__text-subheader {
     font-size: 1.5rem;
     width: 162px;
   }
+}
 
   .about-story {
     height: 300px;
     width: 384px;
-  }
 
-  .about-story__text-header {
+  &__text-header {
     padding: 117px 0 5px 0;
     font-size: 3rem;
     width: 36%;
   }
 
-  .about-story__text-subheader {
+  &__text-subheader {
     font-size: 1.5rem;
     width: 178px;
   }
+}
 
   .main-image {
     height: 480px;
     width: 100%;
     background-size: cover;
+
+  &__info {
+    margin: 0 0 0 40px;
+    padding: 25% 0;
   }
+}
 
   .main-about {
     margin: 20px auto 0 auto;
@@ -230,75 +242,84 @@
     flex-flow: row wrap;
   }
 
-  .main-events__table {
+  .main-events {
+    margin-top: 20px;
+    padding-bottom: 100px;
+
+  &__table {
     width: 708px;
   }
 
-  .main-events__table-name {
+  &__table-name {
     font-size: 2rem;
     padding: 8px 10px 8px 10px;
   }
 
-  .main-events__table-date {
+  &__table-date {
     font-size: 2rem;
   }
 
-  .main-events {
-    margin-top: 20px;
-    padding-bottom: 100px;
-  }
-
-  .main-events__text-header {
+  &__text-header {
     font-size: 3rem;
     margin-left: 40px;
     padding: 20px 20px 20px 0;
   }
 
-  .main-events__text-subheader {
+  &__text-subheader {
     font-size: 2rem;
     padding: 10px 0 0 40px;
   }
-
-  .main-image__header {
-    margin: 0 0 0 40px;
-  }
+}
 
   .main-subscribe {
     margin-bottom: 20px;
-  }
 
-  .main-subscribe__button {
-    width: 180px;
+  &__button {
+    width: 190px;
     height: 38px;
     padding: 0;
     margin: 20px 0 0 10px;
+    font-size: 1.5rem;
   }
 
-  .main-subscribe__image {
-    margin: -70px 15px -45px 14px;
+  &__image {
+    margin: -70px 30px -45px 14px;
   }
 
-  .main-subscribe__data {
+  &__data {
     display: flex;
     flex-flow: row wrap;
   }
 
+  &__section {
+    padding: 30px 0 34px 0;
+  }
+}
+
   .subscribe-image {
-    width: 120px;
+    width: 90px;
   }
 
-  .main-subscribe__name-input {
-    width: 190px;
+  .main-subscribe {
+
+  &__name-input {
+    width: 193px;
     height: 38px;
     margin-top: 10px;
+    padding: 8px 0 8px 12px;
   }
 
-  .main-subscribe__email-input {
-    width: 190px;
+  &__email-input {
+    width: 193px;
     height: 38px;
     margin-top: 10px;
+    padding: 8px 0 8px 12px;
   }
+}
 
+  ::placeholder {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -306,42 +327,114 @@
     width: 590px;
     height: 428px;
     margin-right: 20px;
+
+  &__text-header {
+    width: 33%;
+    padding-top: 155px;
   }
 
-  .about-location__text-header {
-    width: 33%;
-    padding-top: 172px;
+  &__text-subheader {
+    font-size: 2rem;
   }
+}
 
   .about-story {
     width: 590px;
     height: 428px;
+
+  &__text-header {
+    width: 24%;
+    padding-top: 155px;
   }
 
-  .about-story__text-header {
-    width: 24%;
-    padding-top: 172px;
+  &__text-subheader {
+    font-size: 2rem;
   }
+}
 
   .brand-image {
     width: 310px;
   }
 
+  .main-events {
+    margin-top: 20px;
+    padding-bottom: 200px;
+
+  &__text-header {
+    margin-left: 41px;
+    padding: 60px 20px 60px 0;
+  }
+
+  &__text-subheader {
+    font-size: 2.5rem;
+    padding: 40px 0 0 40px;
+  }
+
+  &__table {
+    width: 1140px;
+  }
+
+  &__table-name {
+    font-size: 2.2rem;
+    padding: 14px 14px 14px 14px;
+  }
+
+  &__table-date {
+    font-size: 2.2rem;
+  }
+}
+
   .main-image {
     height: 700px;
   }
 
-  .nav-main__list {
-    margin: -95px 0 0 805px;
-    font-size: 2.5rem;
-    width:
+  .main-subscribe {
+
+  &__button {
+    width: 180px;
+    height: 40px;
+    padding: 0;
+    margin: 20px 0 0 10px;
+    font-size: 2rem;
   }
 
-  .nav-social {
-    margin: 0 0 5px 945px;
+  &__data {
+    margin-bottom: 10px;
   }
 
-  .nav-social__item-image {
-    width: 45px;
+  &__section {
+    padding: 60px 0;
+  }
+
+  &__header {
+    margin-top: 0;
+  }
+
+  &__image {
+    margin: -120px 40px -55px 40px;
+  }
+
+  &__email-input {
+    width: 189px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 12px 0 8px 12px;
+  }
+
+  &__name-input {
+    width: 189px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 12px 0 8px 12px;
+  }
+}
+
+  ::placeholder {
+    font-size: 2rem;
+  }
+
+  .subscribe-image {
+    height: 400px;
+    width: 120px;
   }
 }

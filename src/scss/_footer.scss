@@ -9,35 +9,35 @@
 .footer-contact {
   width: 140px;
   margin: auto;
-}
 
-.footer-contact__info {
+  &__info {
   color: white;
+  }
 }
 
 .footer-hours {
   width: 88px;
   margin: 0 auto;
-}
 
-.footer-hours__info {
+  &__info {
   color: white;
+  }
 }
 
 .main-footer {
   padding: 30px 0;
-}
 
-.main-footer__text {
+  &__text {
   display: flex;
   flex-flow: row wrap;
+  }
 }
 
 /* Responsive styles */
 
 @media (min-width: 768px) {
   .footer-contact {
-    width: 367px;
+    width: 400px;
   }
 
   .footer-hours {
@@ -47,4 +47,31 @@
 
 @media (min-width: 1200px) {
 
+  .bbb-logo {
+    width: 148px;
+  }
+
+  .eclipse-logo {
+    width: 380px;
+  }
+
+  .footer-contact {
+    width: 650px;
+
+  &__info {
+    margin-bottom: 40px;
+  }
+}
+
+  .footer-hours {
+    width: 390px;
+
+  &__info {
+    margin-bottom: 40px;
+  }
+}
+
+  .main-footer {
+    padding: 60px 0;
+  }
 }

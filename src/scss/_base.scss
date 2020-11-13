@@ -10,11 +10,12 @@ body {
 }
 
 footer {
-  background-color: black;
+  background-color: $color-rust-100;
 }
 
 header {
-    background-color: #1D0F00;
+    background-color: $color-rust-100;
+    opacity: 100%;
 }
 
 img {
